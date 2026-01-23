@@ -1,11 +1,15 @@
 # Python
+.venv/
+node_modules/
 __pycache__/
-*.pyc
-.env/
-venv/
-.ipynb_checkpoints/
-.DS_Store
-*.pth
+data/
+runs/
+*.pt
+*.onnx
+*.zip
+*.mp4
+*.mov
+EOF
 
 # Data
 data/
