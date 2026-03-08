@@ -24,7 +24,7 @@
     "C22_Talk_to_Passenger"
   ],
   "num_classes": 22,
-  "img_size": 256,
+  "img_size": 512,
   "mean": [
     0.485,
     0.456,
