@@ -1,0 +1,13 @@
+2026-03-17 22:55:08,574 INFO    MainThread:13900 [wandb_setup.py:_flush():81] Current SDK version is 0.25.1
+2026-03-17 22:55:08,574 INFO    MainThread:13900 [wandb_setup.py:_flush():81] Configure stats pid to 13900
+2026-03-17 22:55:08,574 INFO    MainThread:13900 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-03-17 22:55:08,574 INFO    MainThread:13900 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /home/lurpd/DevelopmentWSL2/DistractionAI/wandb/run-20260317_225508-gucpg3wc/logs/debug.log
+2026-03-17 22:55:08,575 INFO    MainThread:13900 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /home/lurpd/DevelopmentWSL2/DistractionAI/wandb/run-20260317_225508-gucpg3wc/logs/debug-internal.log
+2026-03-17 22:55:08,575 INFO    MainThread:13900 [wandb_init.py:init():844] calling init triggers
+2026-03-17 22:55:08,575 INFO    MainThread:13900 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'architecture': 'mobilenetv3_small', 'dataset_id': 'pic-day-cam1', 'batch_size': 128, 'pretrain': True, 'lr': 'StepLR50', '_wandb': {}}
+2026-03-17 22:55:08,575 INFO    MainThread:13900 [wandb_init.py:init():892] starting backend
+2026-03-17 22:55:08,796 INFO    MainThread:13900 [wandb_init.py:init():895] sending inform_init request
+2026-03-17 22:55:08,800 INFO    MainThread:13900 [wandb_init.py:init():903] backend started and connected
+2026-03-17 22:55:08,813 INFO    MainThread:13900 [wandb_init.py:init():973] updated telemetry
+2026-03-17 22:55:08,818 INFO    MainThread:13900 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout

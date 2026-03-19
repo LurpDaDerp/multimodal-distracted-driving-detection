@@ -1,0 +1,66 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            s6vy2jqe4iofcx0wtk051y2kxc9lnz54:
+                args:
+                    - -net
+                    - mobilenetv3_small
+                    - -gpu
+                    - -b
+                    - "128"
+                codePath: 100-driver/train.py
+                codePathLocal: 100-driver/train.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "1081101176832"
+                        used: "392822525952"
+                email: lurpdaderp@gmail.com
+                executable: /home/lurpd/DevelopmentWSL2/DistractionAI/.venv/bin/python3
+                git:
+                    commit: 913161fb13feeaab9b1293f74c032b643ef16042
+                gpu: NVIDIA GeForce RTX 5070
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      memoryTotal: "12820938752"
+                      name: NVIDIA GeForce RTX 5070
+                      uuid: GPU-d4f850c4-2be7-452c-e1b5-563939653a5c
+                host: LurpPC
+                memory:
+                    total: "58969980928"
+                os: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+                program: /home/lurpd/DevelopmentWSL2/DistractionAI/100-driver/train.py
+                python: CPython 3.12.3
+                root: /home/lurpd/DevelopmentWSL2/DistractionAI
+                startedAt: "2026-03-18T06:02:21.411949Z"
+                writerId: s6vy2jqe4iofcx0wtk051y2kxc9lnz54
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 13
+                - 16
+            "4": 3.12.3
+            "5": 0.25.1
+            "12": 0.25.1
+            "13": linux-x86_64
+architecture:
+    value: mobilenetv3_small
+batch_size:
+    value: 128
+dataset_id:
+    value: pic-day-cam1
+lr:
+    value: StepLR50
+pretrain:
+    value: true

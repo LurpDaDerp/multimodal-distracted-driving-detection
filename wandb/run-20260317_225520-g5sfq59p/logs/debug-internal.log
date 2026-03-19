@@ -1,0 +1,17 @@
+{"time":"2026-03-17T22:55:20.710536987-07:00","level":"INFO","msg":"wandb-core"}
+{"time":"2026-03-17T22:55:20.711978204-07:00","level":"INFO","msg":"stream: starting","core version":"0.25.1"}
+{"time":"2026-03-17T22:55:21.010398553-07:00","level":"INFO","msg":"stream: created new stream","id":"g5sfq59p"}
+{"time":"2026-03-17T22:55:21.010470452-07:00","level":"INFO","msg":"handler: started"}
+{"time":"2026-03-17T22:55:21.010547487-07:00","level":"INFO","msg":"stream: started"}
+{"time":"2026-03-17T22:55:21.010582633-07:00","level":"INFO","msg":"writer: started","stream_id":"g5sfq59p"}
+{"time":"2026-03-17T22:55:21.010602145-07:00","level":"INFO","msg":"sender: started"}
+{"time":"2026-03-17T22:55:21.142958745-07:00","level":"ERROR","msg":"api: HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2026-03-17T22:55:21.143046081-07:00","level":"ERROR","msg":"runupserter: failed to init run","error":"returned error 404: {\"data\":{\"upsertBucket\":null},\"errors\":[{\"message\":\"project not found\",\"path\":[\"upsertBucket\"]}]}"}
+{"time":"2026-03-17T22:55:21.148048098-07:00","level":"INFO","msg":"stream: closing"}
+{"time":"2026-03-17T22:55:21.148282355-07:00","level":"ERROR","msg":"sender: uploadConfigFile: runhandle: run not yet initialized"}
+{"time":"2026-03-17T22:55:21.148535741-07:00","level":"ERROR","msg":"runfiles: runhandle: run not yet initialized"}
+{"time":"2026-03-17T22:55:21.148733184-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-17T22:55:21.148772846-07:00","level":"INFO","msg":"handler: closed"}
+{"time":"2026-03-17T22:55:21.148834362-07:00","level":"INFO","msg":"sender: closed"}
+{"time":"2026-03-17T22:55:21.148839884-07:00","level":"INFO","msg":"stream: closed"}
+{"time":"2026-03-17T22:55:21.154651127-07:00","level":"ERROR","msg":"stream: runURL: runhandle: run not yet initialized"}
