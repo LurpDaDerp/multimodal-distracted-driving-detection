@@ -1,10 +1,10 @@
 # Distracted Driving Detection
 
-Real-time detection of driver distraction using multimodal computer vision and deep learning.
+Detection of driver distraction using multimodal computer vision with feature extraction and deep learning.
 
 ## Overview
 
-This project detects distracted driving behaviors by analyzing driver face, hand, and body pose. A transformer-based architecture combines spatial landmarks from MediaPipe with CNN visual features to classify driver attention states in real-time.
+This project detects distracted driving behaviors by analyzing driver face, hand, and body pose. A transformer-based architecture combines spatial landmarks from MediaPipe with CNN visual features to classify driver attention states.
 
 ## Architecture
 
