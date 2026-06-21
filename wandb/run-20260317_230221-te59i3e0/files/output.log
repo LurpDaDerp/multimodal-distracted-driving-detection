@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/home/lurpd/DevelopmentWSL2/DistractionAI/100-driver/train.py", line 154, in <module>
-    train_datasets = DataSet(trainloader, trainloadertxt, mean, std, flag ='train')#get data
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/lurpd/DevelopmentWSL2/DistractionAI/100-driver/dataset.py", line 19, in __init__
-    with open(lists, 'r') as f:
-         ^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: './data-splits/Traditional-setting/Day/Cam1/D1_train.txt'
