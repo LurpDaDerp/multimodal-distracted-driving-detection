@@ -14,6 +14,10 @@ The model leverages three complementary input streams:
 - **CNN Features**: EfficientNet/MobileNet encoders extract visual representations from video frames
 - **Transformer**: Temporal fusion layer that integrates spatial landmarks and CNN features for inference
 
+## Training
+
+The training pipeline uses **subject-level** splits to ensure that the model does not overfit, and it allow us to see how well the model actually generalizes for subjects not in training data.
+
 ## Dataset
 
 Trained on the 100-Driver Dataset
