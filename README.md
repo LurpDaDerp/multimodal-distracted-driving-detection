@@ -1,6 +1,6 @@
 # Distracted Driving Detection
 
-Detection of driver distraction using multimodal computer vision with feature extraction and deep learning.
+Detection of driver distraction using multimodal computer vision with feature extraction and deep learning. (85% acc on subjects outside of training)
 
 ## Overview
 
